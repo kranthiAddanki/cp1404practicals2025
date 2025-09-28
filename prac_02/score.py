@@ -42,3 +42,4 @@ def check_result(score):
 
 
 main()
+
