@@ -1,8 +1,9 @@
+MENU = "(G)et a valid score \n(P)rint result \n(S)how stars \n(Q)uit"
+
 def main():
-    MENU = "(G)et a valid score \n(P)rint result \n(S)how stars \n(Q)uit"
+
     print(MENU)
     choice = input("Enter your choice: ").upper()
-
     while choice != "Q":
         if choice == "G":
             score = get_valid_score()
