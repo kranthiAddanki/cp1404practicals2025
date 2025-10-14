@@ -26,7 +26,7 @@ for state_code in CODE_TO_NAME:
     state_name = CODE_TO_NAME[state_code]
     print(f"{state_code:{max_state_code_length}} is {state_name:{max_state_name_length}}")
 
-"""EAFP approach """
+"""Easy to Ask For Permission approach """
 state_code = input("Enter short state: ").upper()
 while state_code != "":
     try :
